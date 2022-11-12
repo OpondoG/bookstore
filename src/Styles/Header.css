@@ -1,5 +1,5 @@
 .panel-bg {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: space-between;
 }
@@ -9,7 +9,7 @@
   height: 2.313rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.675rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -41,7 +41,7 @@
 }
 
 .panel-bg ul :last-child {
-  width: 6.563rem;
+  width: 6.541rem;
   height: 1rem;
   opacity: 0.5;
   font-family: "Montserrat", sans-serif;
