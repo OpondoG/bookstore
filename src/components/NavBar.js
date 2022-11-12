@@ -12,7 +12,7 @@ const NavBar = () => {
     <div className="NavBar">
       <nav className="panel-bg">
         <h1>Bookstore CMS</h1>
-        <ul>
+        <ul className="links">
           {links.map((link) => (
             <li key={link.id}>
               <NavLink to={link.path} exact>{link.text}</NavLink>
@@ -23,7 +23,6 @@ const NavBar = () => {
       <div className="Oval">
         <img src={user} alt="user" />
       </div>
-
     </div>
   );
 };
